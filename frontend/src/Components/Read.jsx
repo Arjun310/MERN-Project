@@ -14,7 +14,7 @@ function Read() {
     .catch(err => console.log(err))
   }, [])
   return (
-    <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
+    <div className='d-flex vh-100 bg-light justify-content-center align-items-center'>
         <div className='w-50 bg-white rounded p-3'>
             <div>
                 <h2>Student Details</h2>
